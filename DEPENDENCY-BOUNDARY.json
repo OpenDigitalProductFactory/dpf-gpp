@@ -3,8 +3,8 @@
   "stage": "private installed downward-dependency candidate; no product adoption",
   "componentMaintainer": "OpenDigitalProductFactory maintainers",
   "runtimeDependencies": {
-    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.1",
-    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.3",
+    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.2",
+    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.4",
     "zod": "4.6.7"
   },
   "sharedFrozenSources": [],
@@ -72,14 +72,15 @@
     }
   ],
   "artifactContract": {
-    "version": "0.1.0-candidate.3",
+    "version": "0.1.0-candidate.4",
     "format": "ESM plus declarations",
     "browserEntry": "./browser",
     "nodeCompilerEntry": "./compiler",
     "publicPackagePublication": false,
     "supportedNodeVersions": [
       "24.16.0",
-      "24.22.0"
+      "24.22.0",
+      "24.22.1"
     ]
   },
   "dependencyTransport": {
@@ -88,7 +89,9 @@
     "publication": "vendor dependency transports and historical baseline fixtures excluded from GPP runtime tarball",
     "integrities": {
       "opendigitalproductfactory-dpf-scoped-judgment-0.1.0-candidate.1.tgz": "bb6decede85399092056ef6894f362f3f7c4e21b3f93ac6e9ea368301cc2766b",
-      "opendigitalproductfactory-dpf-workroom-0.1.0-candidate.3.tgz": "0f5769c59b39b3a2d85af26253b27b12b805aa95836e10eef780ab298ebee281"
+      "opendigitalproductfactory-dpf-workroom-0.1.0-candidate.3.tgz": "0f5769c59b39b3a2d85af26253b27b12b805aa95836e10eef780ab298ebee281",
+      "opendigitalproductfactory-dpf-workroom-0.1.0-candidate.4.tgz": "42e2a2e38d56b631d8cb8c15c412726efa63602dd550842549f90fb8069f7b44",
+      "opendigitalproductfactory-dpf-scoped-judgment-0.1.0-candidate.2.tgz": "cf79f4ee40c72706439af9e51155b2a12c9b14c5029a6253d14f8a6848a87af9"
     }
   }
 }

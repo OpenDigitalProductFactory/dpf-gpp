@@ -22,14 +22,14 @@ Upstream qualification limit: Synthetic compiler/model and mapping fixture only;
 
 ## Private installed dependency candidate
 
-`0.1.0-candidate.1` emits ESM and declarations. The root and `browser` subpath
+`0.1.0-candidate.4` emits ESM and declarations. The root and `browser` subpath
 provide the browser-compatible model API; `compiler` adds the Node compiler.
 Other explicit subpaths in package.json expose schema, layout, contracts,
 vocabulary, canonical JSON and individual model operations. Undeclared deep
 paths are unsupported. This is a private candidate, not a registry release.
 
-GPP depends downward on exactly Workroom `0.1.0-candidate.2`, scoped judgment
-`0.1.0-candidate.1` and Zod `4.6.7`. Ten displaced runtime bodies have moved
+GPP depends downward on exactly Workroom `0.1.0-candidate.4`, scoped judgment
+`0.1.0-candidate.2` and Zod `4.6.7`. Ten displaced runtime bodies have moved
 out of `packages/` into unpublished baseline test fixtures. Process identity,
 diagnostics, construct vocabulary, graph/marking/receipts, results and outcome
 disposition belong to Workroom; decision scopes belong to scoped judgment.
@@ -87,3 +87,5 @@ loads the same emitted ESM bytes as `import`. This provides the required Node24 
 compatibility without changing GPP source or introducing a second kernel.
 Actual DPF framework and merged-source qualification remain pending receiving
 verification. Scoped judgment remains `.1`; prior candidates remain immutable.
+
+Candidate `.4` admits the qualified Node 24.22.1 receiving patch and pins Workroom `.4` plus scoped judgment `.2`. Exact source semantics, retired-body ownership, emitted APIs and authority boundaries are unchanged. The build remains Node 24.16.0/TypeScript 6.0.3; clean installed receiver checks cover Node 24.22.0 and 24.22.1/TypeScript 7.0.2. Earlier candidates remain immutable; product/browser/CSP/OS acceptance is separate.
