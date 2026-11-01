@@ -3,8 +3,8 @@
   "stage": "private installed downward-dependency candidate; no product adoption",
   "componentMaintainer": "OpenDigitalProductFactory maintainers",
   "runtimeDependencies": {
-    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.0",
-    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.1",
+    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.1",
+    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.2",
     "zod": "4.6.7"
   },
   "sharedFrozenSources": [],
@@ -72,19 +72,23 @@
     }
   ],
   "artifactContract": {
-    "version": "0.1.0-candidate.0",
+    "version": "0.1.0-candidate.1",
     "format": "ESM plus declarations",
     "browserEntry": "./browser",
     "nodeCompilerEntry": "./compiler",
-    "publicPackagePublication": false
+    "publicPackagePublication": false,
+    "supportedNodeVersions": [
+      "24.16.0",
+      "24.22.0"
+    ]
   },
   "dependencyTransport": {
     "localDevelopment": "package-lock pins repository-relative vendor tarballs with npm integrity; manifest pins exact semantic versions",
     "receivingCandidate": "install this tarball and both pinned foundation tarballs together; no registry release implied",
     "publication": "vendor dependency transports and historical baseline fixtures excluded from GPP runtime tarball",
     "integrities": {
-      "opendigitalproductfactory-dpf-scoped-judgment-0.1.0-candidate.0.tgz": "acb9d84f34d3a678456e2ee4cb72aaee7a0e623379e5b8d9f920c49f8052b26c",
-      "opendigitalproductfactory-dpf-workroom-0.1.0-candidate.1.tgz": "46215f845b26c79a526e215b00c2ae25c50610fa53788e344408cdab239bbb39"
+      "opendigitalproductfactory-dpf-scoped-judgment-0.1.0-candidate.1.tgz": "bb6decede85399092056ef6894f362f3f7c4e21b3f93ac6e9ea368301cc2766b",
+      "opendigitalproductfactory-dpf-workroom-0.1.0-candidate.2.tgz": "b30b8eba47df6b983e26e7a0f4b724363eb1a62df7a10829359a50e7d77acb40"
     }
   }
 }

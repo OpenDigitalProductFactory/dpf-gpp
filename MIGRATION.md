@@ -10,14 +10,14 @@ These are migration obligations, not extra per-tool human approvals. Ordinary au
 
 ## Private installed dependency candidate
 
-`0.1.0-candidate.0` emits ESM and declarations. The root and `browser` subpath
+`0.1.0-candidate.1` emits ESM and declarations. The root and `browser` subpath
 provide the browser-compatible model API; `compiler` adds the Node compiler.
 Other explicit subpaths in package.json expose schema, layout, contracts,
 vocabulary, canonical JSON and individual model operations. Undeclared deep
 paths are unsupported. This is a private candidate, not a registry release.
 
-GPP depends downward on exactly Workroom `0.1.0-candidate.1`, scoped judgment
-`0.1.0-candidate.0` and Zod `4.6.7`. Ten displaced runtime bodies have moved
+GPP depends downward on exactly Workroom `0.1.0-candidate.2`, scoped judgment
+`0.1.0-candidate.1` and Zod `4.6.7`. Ten displaced runtime bodies have moved
 out of `packages/` into unpublished baseline test fixtures. Process identity,
 diagnostics, construct vocabulary, graph/marking/receipts, results and outcome
 disposition belong to Workroom; decision scopes belong to scoped judgment.
@@ -64,3 +64,8 @@ PROVENANCE.json retains its prior record in supersededFiles. Installed tests
 first reproduced rejection of reviewDesignDoc, then verify camelCase support
 while path/separator/uppercase-leading names remain rejected. All other original
 source entries retain their original byte identity.
+
+Candidate `.1` corrects runtime-engine metadata for strict installation on both
+tested Node versions, 24.16.0 and 24.22.0, and pins the corresponding Workroom
+`.2` / scoped-judgment `.1` artifacts. Build pins and pure source/API semantics
+are unchanged; the prior candidate archives stay immutable.

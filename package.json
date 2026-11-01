@@ -1,6 +1,6 @@
 {
   "name": "@opendigitalproductfactory/dpf-gpp",
-  "version": "0.1.0-candidate.0",
+  "version": "0.1.0-candidate.1",
   "private": true,
   "type": "module",
   "description": "GPP shape schema, compiler and model tooling",
@@ -10,7 +10,7 @@
     "url": "https://github.com/OpenDigitalProductFactory/dpf-gpp.git"
   },
   "engines": {
-    "node": "24.16.0"
+    "node": "24.16.0 || 24.22.0"
   },
   "scripts": {
     "verify:source": "node scripts/verify-provenance.mjs",
@@ -21,8 +21,8 @@
     "test:package": "node scripts/check-package.mjs"
   },
   "dependencies": {
-    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.0",
-    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.1",
+    "@opendigitalproductfactory/dpf-scoped-judgment": "0.1.0-candidate.1",
+    "@opendigitalproductfactory/dpf-workroom": "0.1.0-candidate.2",
     "zod": "4.6.7"
   },
   "devDependencies": {
