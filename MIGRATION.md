@@ -71,6 +71,7 @@ tested Node versions, 24.16.0 and 24.22.0, and pins the corresponding Workroom
 are unchanged; the prior candidate archives stay immutable.
 
 Candidate `.2` pins Workroom `.3`, whose explicit Node24 `require` condition
-loads the same emitted ESM bytes as `import`. This qualifies the real DPF
-framework source-loader path without changing GPP source or introducing a
-second kernel. Scoped judgment remains `.1`; prior candidates remain immutable.
+loads the same emitted ESM bytes as `import`. This provides the required Node24 loader
+compatibility without changing GPP source or introducing a second kernel.
+Actual DPF framework and merged-source qualification remain pending receiving
+verification. Scoped judgment remains `.1`; prior candidates remain immutable.
