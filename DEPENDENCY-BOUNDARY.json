@@ -72,7 +72,7 @@
     }
   ],
   "artifactContract": {
-    "version": "0.1.0-candidate.2",
+    "version": "0.1.0-candidate.3",
     "format": "ESM plus declarations",
     "browserEntry": "./browser",
     "nodeCompilerEntry": "./compiler",
