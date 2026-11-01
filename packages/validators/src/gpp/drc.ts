@@ -98,7 +98,7 @@
 //
 // OFFLINE TOOLING in Phase 3b: nothing in the running app imports this module.
 
-import { canonicalJson } from "@dpf/integration-shared/canonical-json";
+import { canonicalJson } from "../../../integration-shared/src/canonical-json.ts";
 
 import {
   escapeJsonPointerToken,
@@ -108,17 +108,17 @@ import {
   type GppDiagnosticCode,
   type GppDiagnosticSeverity,
   type GppRuleId,
-} from "./diagnostics.ts";
+} from "@opendigitalproductfactory/dpf-workroom/process/diagnostics";
 import { constructsUsedBy } from "./constructs-used-by.ts";
-import { elementIdsOf, gateElementId, shapeElementId } from "./element-ids.ts";
+import { elementIdsOf, gateElementId, shapeElementId } from "@opendigitalproductfactory/dpf-workroom/process/element-ids";
 import { copyGate, lowerToDefinition } from "./emit.ts";
 import { enteringGate } from "./entering-gate.ts";
-import { CONSTRUCT_EXECUTABLE, type GppConstruct } from "./executable-constructs.ts";
+import { CONSTRUCT_EXECUTABLE, type GppConstruct } from "@opendigitalproductfactory/dpf-workroom/process/executable-constructs";
 import { ratifiedGateFor, type GateRatificationEntry } from "./ratification.ts";
 import { hasDesignRulePolicy, type GppDesignRulePolicy } from "./design-rule-policy.ts";
 import type { GppLayoutSidecar } from "./gpp-layout-schema.ts";
 import type { GppGate, GppShapeDocument } from "./gpp-shape-schema.ts";
-import { buildShapeFlowGraph } from "../workroom/flow-graph.ts";
+import { buildShapeFlowGraph } from "@opendigitalproductfactory/dpf-workroom/flow-graph";
 import type { GppResolution, GppResolvedStage, GppResolvedTool } from "./resolve.ts";
 import { checkSoundness } from "./soundness.ts";
 

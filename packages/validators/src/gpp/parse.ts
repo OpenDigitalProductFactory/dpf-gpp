@@ -43,8 +43,8 @@ import {
   type GppDiagnostic,
   type GppParseCode,
   type GppSchemaCode,
-} from "./diagnostics.ts";
-import { elementsOfValue, nearestElementId, type GppElement } from "./element-ids.ts";
+} from "@opendigitalproductfactory/dpf-workroom/process/diagnostics";
+import { elementsOfValue, nearestElementId, type GppElement } from "@opendigitalproductfactory/dpf-workroom/process/element-ids";
 import { gppShapeDocumentSchema, type GppShapeDocument } from "./gpp-shape-schema.ts";
 
 export type GppJsonParseResult =

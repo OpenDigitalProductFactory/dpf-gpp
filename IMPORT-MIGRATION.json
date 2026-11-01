@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "policy": "Import-only downward migration; original source bodies are reconstructed and verified byte-for-byte. Retired bodies exist solely as unpublished baseline test fixtures.",
+  "retired": [
+    {
+      "path": "packages/validators/src/action-result.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/action-result.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/result"
+    },
+    {
+      "path": "packages/validators/src/decision-scopes.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/decision-scopes.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes"
+    },
+    {
+      "path": "packages/validators/src/outcome-disposition.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/outcome-disposition.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/outcome-disposition"
+    },
+    {
+      "path": "packages/validators/src/gpp/diagnostics.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/gpp/diagnostics.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/element-ids.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/gpp/element-ids.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/executable-constructs.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/gpp/executable-constructs.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/process/executable-constructs"
+    },
+    {
+      "path": "packages/validators/src/workroom/index.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/workroom/index.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom"
+    },
+    {
+      "path": "packages/validators/src/workroom/flow-graph.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/workroom/flow-graph.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/workroom/marking.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/workroom/marking.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/marking"
+    },
+    {
+      "path": "packages/validators/src/workroom/receipts.ts",
+      "baselinePath": "examples/_baseline/packages/validators/src/workroom/receipts.ts",
+      "canonicalOwner": "@opendigitalproductfactory/dpf-workroom/receipts"
+    }
+  ],
+  "rewrites": [
+    {
+      "path": "packages/validators/src/gpp/bindings-emit.ts",
+      "from": "../decision-scopes.ts",
+      "to": "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes"
+    },
+    {
+      "path": "packages/validators/src/gpp/browser.ts",
+      "from": "./diagnostics.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/browser.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/browser.ts",
+      "from": "./executable-constructs.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/executable-constructs"
+    },
+    {
+      "path": "packages/validators/src/gpp/compile.ts",
+      "from": "@dpf/integration-shared/canonical-json",
+      "to": "../../../integration-shared/src/canonical-json.ts"
+    },
+    {
+      "path": "packages/validators/src/gpp/compile.ts",
+      "from": "./diagnostics.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/constructs-used-by.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/constructs-used-by.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/constructs-used-by.ts",
+      "from": "./executable-constructs.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/executable-constructs"
+    },
+    {
+      "path": "packages/validators/src/gpp/decompile.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/drc.ts",
+      "from": "@dpf/integration-shared/canonical-json",
+      "to": "../../../integration-shared/src/canonical-json.ts"
+    },
+    {
+      "path": "packages/validators/src/gpp/drc.ts",
+      "from": "./diagnostics.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/drc.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/drc.ts",
+      "from": "./executable-constructs.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/executable-constructs"
+    },
+    {
+      "path": "packages/validators/src/gpp/drc.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/entering-gate.ts",
+      "from": "@dpf/integration-shared/canonical-json",
+      "to": "../../../integration-shared/src/canonical-json.ts"
+    },
+    {
+      "path": "packages/validators/src/gpp/entering-gate.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/gpp-shape-schema.ts",
+      "from": "../decision-scopes.ts",
+      "to": "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes"
+    },
+    {
+      "path": "packages/validators/src/gpp/gpp-shape-schema.ts",
+      "from": "../outcome-disposition.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/outcome-disposition"
+    },
+    {
+      "path": "packages/validators/src/gpp/interpreter.ts",
+      "from": "../workroom/receipts.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/receipts"
+    },
+    {
+      "path": "packages/validators/src/gpp/interpreter.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/interpreter.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/parse.ts",
+      "from": "./diagnostics.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/parse.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/resolve.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/soundness.ts",
+      "from": "./diagnostics.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/diagnostics"
+    },
+    {
+      "path": "packages/validators/src/gpp/soundness.ts",
+      "from": "./element-ids.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/process/element-ids"
+    },
+    {
+      "path": "packages/validators/src/gpp/soundness.ts",
+      "from": "../workroom/flow-graph.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/flow-graph"
+    },
+    {
+      "path": "packages/validators/src/gpp/work-shape-contracts.ts",
+      "from": "../decision-scopes.ts",
+      "to": "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes"
+    },
+    {
+      "path": "packages/validators/src/gpp/work-shape-contracts.ts",
+      "from": "../outcome-disposition.ts",
+      "to": "@opendigitalproductfactory/dpf-workroom/outcome-disposition"
+    }
+  ]
+}

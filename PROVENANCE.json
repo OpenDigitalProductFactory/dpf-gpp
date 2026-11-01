@@ -259,10 +259,11 @@
     {
       "path": "packages/validators/src/gpp/gpp-shape-schema.ts",
       "upstreamPath": "packages/validators/src/gpp/gpp-shape-schema.ts",
-      "gitBlob": "68446f0e07867508e47c0ac47cd2f30fbf134615",
-      "sha256": "74213626bc583e31b45e8bf10975ef82049aef6f8208b7e249e5499f1d10515d",
-      "bytes": 12023,
-      "role": "component-source-or-example"
+      "gitBlob": "82a3c49bca525b8b78b15f4037c2a33a7c4a0586",
+      "sha256": "5916954a2b46712354cdd00557d3b6436f5efff9e87a001016e79c33710d238d",
+      "bytes": 12246,
+      "role": "component-source-or-example",
+      "upstreamRevision": "adbea8f20f601e8e7d49693a1043c521b6d6c60d"
     },
     {
       "path": "packages/validators/src/gpp/interpreter.ts",
@@ -383,6 +384,17 @@
       "sha256": "0354b7f0fdd90ecb3fedb459a99194642c9d0e0b01472a53a996f029e8c89dcc",
       "bytes": 4263,
       "role": "frozen-compatibility-dependency"
+    }
+  ],
+  "supersededFiles": [
+    {
+      "path": "packages/validators/src/gpp/gpp-shape-schema.ts",
+      "upstreamPath": "packages/validators/src/gpp/gpp-shape-schema.ts",
+      "gitBlob": "68446f0e07867508e47c0ac47cd2f30fbf134615",
+      "sha256": "74213626bc583e31b45e8bf10975ef82049aef6f8208b7e249e5499f1d10515d",
+      "bytes": 12023,
+      "role": "component-source-or-example",
+      "supersessionReason": "Preserve existing DPF BI-D37B2C13 registered camelCase tool-name fix; no authority or resolution bypass."
     }
   ]
 }

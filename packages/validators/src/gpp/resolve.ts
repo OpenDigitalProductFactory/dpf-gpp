@@ -27,7 +27,7 @@
 
 import type { ConsequenceClass, GppToolClassification as ConsequentialToolClassification, ToolConsequence } from "./tool-facts.ts";
 
-import { bindingElementId, gateElementId, shapeElementId, stageElementId, toolElementId } from "./element-ids.ts";
+import { bindingElementId, gateElementId, shapeElementId, stageElementId, toolElementId } from "@opendigitalproductfactory/dpf-workroom/process/element-ids";
 import type { GppShapeDocument } from "./gpp-shape-schema.ts";
 
 /** What resolve reads. Each member is one registry the runtime already owns. */

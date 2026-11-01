@@ -49,10 +49,10 @@
 
 import { validateStopExits } from "./stop-exits.ts";
 
-import { toJsonPointer, sortDiagnostics, type GppDiagnostic } from "./diagnostics.ts";
-import { gateElementId, shapeElementId } from "./element-ids.ts";
+import { toJsonPointer, sortDiagnostics, type GppDiagnostic } from "@opendigitalproductfactory/dpf-workroom/process/diagnostics";
+import { gateElementId, shapeElementId } from "@opendigitalproductfactory/dpf-workroom/process/element-ids";
 import type { GppShapeDocument } from "./gpp-shape-schema.ts";
-import { buildShapeFlowGraph, forwardReach, type GppFlowEdge, type GppFlowGraph } from "../workroom/flow-graph.ts";
+import { buildShapeFlowGraph, forwardReach, type GppFlowEdge, type GppFlowGraph } from "@opendigitalproductfactory/dpf-workroom/flow-graph";
 
 type SoundnessRule = "S-1" | "S-2" | "S-3" | "S-4" | "S-5" | "S-6";
 type Segment = string | number;

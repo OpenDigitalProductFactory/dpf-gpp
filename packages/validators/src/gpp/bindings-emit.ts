@@ -25,7 +25,7 @@
 // reads one at runtime, and the compiler never writes GPP_BINDING_ENFORCEMENT
 // or adds to GPP_BINDINGS.
 
-import type { DecisionScope as PermitAuthority } from "../decision-scopes.ts";
+import type { DecisionScope as PermitAuthority } from "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes";
 import { enteringGate } from "./entering-gate.ts";
 import type { GppShapeDocument } from "./gpp-shape-schema.ts";
 import type { GppResolution } from "./resolve.ts";

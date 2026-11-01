@@ -39,7 +39,7 @@
 //
 // OFFLINE TOOLING in Phase 3a: nothing in the running app imports this module.
 
-import { declaresRefuseRoute } from "../workroom/flow-graph.ts";
+import { declaresRefuseRoute } from "@opendigitalproductfactory/dpf-workroom/flow-graph";
 import type { WorkShapeDefinition, WorkShapeStage } from "./work-shape-contracts.ts";
 
 import { copyBinding, copyGate } from "./emit.ts";

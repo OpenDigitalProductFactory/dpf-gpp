@@ -25,10 +25,10 @@
 // at module evaluation: putting the walk in the table's own module would make
 // a runtime import cycle.
 
-import type { InterpretableShape } from "../workroom/flow-graph.ts";
+import type { InterpretableShape } from "@opendigitalproductfactory/dpf-workroom/flow-graph";
 
-import { flowEdgeElementId, flowNodeElementId, gateElementId, stageElementId } from "./element-ids.ts";
-import type { GppConstruct } from "./executable-constructs.ts";
+import { flowEdgeElementId, flowNodeElementId, gateElementId, stageElementId } from "@opendigitalproductfactory/dpf-workroom/process/element-ids";
+import type { GppConstruct } from "@opendigitalproductfactory/dpf-workroom/process/executable-constructs";
 
 /** One gated construct a definition uses. `path` is the element's JSON path in the definition (and its document). */
 export type ConstructUse = {

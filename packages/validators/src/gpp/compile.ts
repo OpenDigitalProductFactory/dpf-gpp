@@ -33,9 +33,9 @@
 
 import { createHash } from "node:crypto";
 
-import { canonicalJson } from "@dpf/integration-shared/canonical-json";
+import { canonicalJson } from "../../../integration-shared/src/canonical-json.ts";
 
-import { hasBlockingDiagnostic, sortDiagnostics, type GppDiagnostic } from "./diagnostics.ts";
+import { hasBlockingDiagnostic, sortDiagnostics, type GppDiagnostic } from "@opendigitalproductfactory/dpf-workroom/process/diagnostics";
 import { runDesignRules, type DesignRuleOptions } from "./drc.ts";
 import { emitShapeModule, lowerToDefinition, type LoweredWorkShapeDefinition } from "./emit.ts";
 import type { GppShapeDocument } from "./gpp-shape-schema.ts";

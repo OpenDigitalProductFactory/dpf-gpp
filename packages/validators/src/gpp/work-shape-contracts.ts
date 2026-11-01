@@ -1,7 +1,7 @@
 // Portable structural work-shape contracts; the application owns its registry,
 // pinned definitions, validation, admission and policy adapters.
-import type { DecisionScope } from "../decision-scopes.ts";
-import type { OutcomeDisposition } from "../outcome-disposition.ts";
+import type { DecisionScope } from "@opendigitalproductfactory/dpf-scoped-judgment/decision-scopes";
+import type { OutcomeDisposition } from "@opendigitalproductfactory/dpf-workroom/outcome-disposition";
 import type { WorkroomShapeKey, WorkShapeEvidenceKind, WorkShapeTriggerClass } from "./work-vocabulary.ts";
 
 /**
